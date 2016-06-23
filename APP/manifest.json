@@ -1,0 +1,16 @@
+{
+    "name": "foxxtest",
+    "version": "0.0.0",
+    "description": "Test Foxx Refresh Problems",
+    "engines": {
+        "arangodb": "^3.0.0"
+    },
+    "author": "Andy Barilla",
+    "license": "whatever",
+    "main": "main.js",
+    "scripts": {
+        "setup": "scripts/setup.js",
+        "teardown": "scripts/teardown.js"
+    },
+    "tests": "test/**/*.js"
+}
